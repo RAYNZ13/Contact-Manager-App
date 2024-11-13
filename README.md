@@ -1,7 +1,7 @@
 
 # Contact Manager App
 
-This Node.js and Express.js application provides a robust platform for managing your contacts. It offers a RESTful API with CRUD operations, user authentication, and authorization features.
+A robust, secure application built with Node.js, Express, and MongoDB that simplifies contact management with complete CRUD operations and JWT authorization. The application follows the MVC architecture to ensure a structured and scalable codebase, providing a secure and user-friendly experience for managing contacts.
 
 ## Project Overview
 This project follows a modular structure, promoting maintainability and scalability. Here's a breakdown of the key components:
@@ -17,12 +17,24 @@ This project follows a modular structure, promoting maintainability and scalabil
 * JWT Tokens: Employs JSON Web Tokens (JWT) for secure access control.
 * Relationships: Enables the creation of relationships between contacts (optional).
 * Protected Routes: Enforces authorization by requiring valid JWT tokens for accessing sensitive data.
-## API Reference
 
+## Tech Stack
+* Backend: Node.js, Express
+* Database: MongoDB
+* Authentication: JSON Web Tokens (JWT)
+* Architecture: MVC
 
-```http
-  GET /api/contacts
-```
+## Getting Started
+Follow these instructions to set up the project locally.
+
+# Prerequisites
+* Node.js (v14 or higher)
+* MongoDB (local or cloud instance)
+
+# Installation
+1. Clone the repository
+   git clone https://github.com/RAYNZ13/Contact-Manager-App.git
+   cd Contact-Manager-App
 
 | CRUD Action | HTTP Method | Endpoint          |
 | :-------- | :------- | :------------------------- |
